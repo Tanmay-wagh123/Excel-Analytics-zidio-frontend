@@ -24,7 +24,7 @@ export const AuthProvider = ({ children }) => {
     }
     
     // Set base URL
-    axios.defaults.baseURL = '';
+    axios.defaults.baseURL = 'https://excel-analytics-zidio-backend.onrender.com';
     
     // Add response interceptor for token expiration
     axios.interceptors.response.use(
